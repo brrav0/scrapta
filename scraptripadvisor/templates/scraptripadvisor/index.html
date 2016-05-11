@@ -1,0 +1,15 @@
+{# this is a comment that should not be rendered #}
+
+This is where we will present the scrapped data from trip advisor<br><br>
+
+We need:<br>
+1) to import the list containing the data<br>
+2) to iterate through the list to display the data<br>
+3) change from local file to scrapping capabilities straightaway to avoid issue with offline/online connection<br>
+
+<br><br>
+
+
+{% for item in list %}
+    {{ item }}<br>
+{% endfor %}
